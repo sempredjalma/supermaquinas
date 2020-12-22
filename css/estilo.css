@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+
+body{
+    background-color: #000;
+    font-family: 'Archivo', sans-serif;
+}
+
+.grid-menu ul{
+    list-style: none;
+}
+
+.grid-menu li{
+    display:inline-flex;
+    padding: 2.7rem 3rem;    
+}
+
+.grid-menu a{
+    text-decoration: none;
+    font-size:1.2rem;
+    color:#E26D5C;
+}
+
+.grid-menu a:hover{
+    border-bottom: 3px solid #E26D5C;
+}
+
+.grid-banner{
+    width:100%;
+}
+
+.grid-banner img{
+    width:100%;
+}

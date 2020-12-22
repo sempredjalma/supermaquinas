@@ -1,0 +1,41 @@
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+    display:grid;
+    grid-template-areas: 
+    "header menu menu"
+    "main main main"
+    "section section section"
+    "footer footer footer"
+    "div div div";
+    grid-template-rows: 10% 400px 400px 100px 40px;
+    grid-gap:0.2rem 0.2rem;
+}
+
+.grid{
+    background-color:#000;
+}
+
+.grid-header{
+    grid-area: header;
+}
+
+.grid-menu{
+    grid-area: menu;
+}
+
+.grid-banner{
+    grid-area: main;
+}
+
+.grid-servicos{
+    grid-area:section;
+}
+
+.grid-rodape{
+    grid-area: footer;
+}
+
+.grid-desenvolvimento{
+    grid-area:div;
+}
